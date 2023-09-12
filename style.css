@@ -17,10 +17,17 @@ h1 {
   text-align: center;
 }
 
-p {
+.container {
+  position: relative
+}
+  
+.container p {
   margin: 0;
   padding: 0;
   text-align: center;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 .keys {
