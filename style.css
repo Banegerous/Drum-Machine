@@ -18,7 +18,9 @@ h1 {
 }
 
 .container {
-  position: relative
+  display: flex;
+  justtify-content: center;
+  align-items: center;
 }
   
 .container p {
